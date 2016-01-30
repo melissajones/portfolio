@@ -17,9 +17,13 @@ a {
   text-decoration: none;
   color: #999;
 }
+a.current{
+  color: #b3ffb3;
+}
 a:hover {
   color: #6633ff;
 }
+
 
 /* Section Styles */
 
@@ -88,6 +92,9 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
+.title {
+    margin: 160px auto;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -133,6 +140,44 @@ ul.testimonial {
   margin: 2px;
 }
 
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 100%;
+}
+
+input, textarea{
+  margin-bottom: 10px;
+  border: solid darkgrey;
+  border-width: thin;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+button{
+  display: block;
+  border-radius: 6px;
+  border: none;
+  background: #0399ff;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  opacity: .7;
+  transition: all .5s;
+}
+
+button:hover{
+  /*background: #005b99*/
+  opacity: 1;
+}
 
 footer {
   width: 100%;
